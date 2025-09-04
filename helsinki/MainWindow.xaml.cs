@@ -42,6 +42,23 @@ namespace helsinki
         private void maxletszam()
         {
             var letszam = 0;
+            foreach (var item in adatok)
+            {
+                if (item.letszam > letszam)
+                {
+                    if (letszam < item.letszam)
+                    {
+                        letszam = item.letszam;
+                    }
+                }
+            }
+            foreach (var item in adatok)
+            {
+                if (item.letszam == letszam)
+                {
+                    tb2.Text = $"Helyezés: {item.helyezes}\n Sportág: {item.sportag}\n Versenyszám: {item.versenyszam}\n Sportolók létszáma: {item.letszam}";
+                }
+            }
         }
 
         private void kijavit()
