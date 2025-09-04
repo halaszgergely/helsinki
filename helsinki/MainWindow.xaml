@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="83,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="176" Height="74" IsReadOnly="True"/>
+        <Label x:Name="lb1" Content="Pontszerző helyezések száma: " HorizontalAlignment="Left" Margin="83,24,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.622,0.517" Width="207"/>
+        <Label x:Name="lb2" Content="Olimpikai pontok száma: " HorizontalAlignment="Left" Margin="83,55,0,0" VerticalAlignment="Top" Width="207"/>
+        <Label x:Name="lb3" Content="" HorizontalAlignment="Left" Margin="83,199,0,0" VerticalAlignment="Top" Width="284"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="83,306,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="181" Height="93" IsReadOnly="True"/>
     </Grid>
 </Window>
